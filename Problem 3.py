@@ -14,10 +14,10 @@ def asalMi(deger):
                 durum = False
 
         if durum and (deger % value == 0):
-            hedef /= value
-            print(value, round(hedef), sep = "\t")
+            deger /= value
+            print(value, round(deger), sep = "\t")
 
-        if hedef == 0:
+        if round(deger) == 1:
             break
 
 
